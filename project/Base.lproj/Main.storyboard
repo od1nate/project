@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qjl-mx-6gE">
-                                <rect key="frame" x="0.0" y="763.5" width="414" height="78.5"/>
+                                <rect key="frame" x="0.0" y="817.5" width="414" height="78.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRA-kW-ONZ">
                                         <rect key="frame" x="136" y="12" width="143" height="54"/>
@@ -191,11 +191,11 @@
             <objects>
                 <viewController id="kz8-Ca-q1B" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7mD-sx-sv5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qiU-kJ-vSg">
-                                <rect key="frame" x="0.0" y="765" width="414" height="77"/>
+                                <rect key="frame" x="0.0" y="819" width="414" height="77"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Trt-o5-cat">
                                         <rect key="frame" x="177" y="8" width="55" height="55"/>
@@ -273,11 +273,11 @@
             <objects>
                 <viewController id="fP9-iI-94I" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZpA-Co-DkU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Будильник" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iK-oJ-Tht">
-                                <rect key="frame" x="145" y="66" width="125" height="27.5"/>
+                                <rect key="frame" x="145" y="98" width="125" height="27.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -333,12 +333,16 @@
                         <viewLayoutGuide key="safeArea" id="wy9-fp-Vpo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uJW-Kb-oEX" secondAttribute="bottom" id="20o-Vo-jIz"/>
                             <constraint firstItem="0iK-oJ-Tht" firstAttribute="leading" secondItem="wy9-fp-Vpo" secondAttribute="leading" constant="145" id="MMC-XV-JFX"/>
+                            <constraint firstItem="uJW-Kb-oEX" firstAttribute="trailing" secondItem="wy9-fp-Vpo" secondAttribute="trailing" id="ONf-Vw-A0a"/>
                             <constraint firstItem="uJW-Kb-oEX" firstAttribute="trailing" secondItem="wy9-fp-Vpo" secondAttribute="trailing" id="Qyk-Q3-H25"/>
                             <constraint firstItem="uJW-Kb-oEX" firstAttribute="leading" secondItem="wy9-fp-Vpo" secondAttribute="leading" id="Rhl-po-mWg"/>
                             <constraint firstItem="wy9-fp-Vpo" firstAttribute="trailing" secondItem="0iK-oJ-Tht" secondAttribute="trailing" constant="144" id="UDv-m8-dck"/>
                             <constraint firstItem="uJW-Kb-oEX" firstAttribute="leading" secondItem="ZpA-Co-DkU" secondAttribute="leading" id="YZG-eN-PIE"/>
-                            <constraint firstAttribute="bottom" secondItem="uJW-Kb-oEX" secondAttribute="bottom" id="aX3-Zd-yTq"/>
+                            <constraint firstItem="uJW-Kb-oEX" firstAttribute="leading" secondItem="wy9-fp-Vpo" secondAttribute="leading" id="d3m-M8-Ipl"/>
+                            <constraint firstItem="uJW-Kb-oEX" firstAttribute="leading" secondItem="wy9-fp-Vpo" secondAttribute="leading" id="gDJ-XP-i28"/>
+                            <constraint firstItem="uJW-Kb-oEX" firstAttribute="trailing" secondItem="wy9-fp-Vpo" secondAttribute="trailing" id="jTg-mj-whS"/>
                             <constraint firstAttribute="trailing" secondItem="uJW-Kb-oEX" secondAttribute="trailing" id="tbf-Ya-Nna"/>
                             <constraint firstItem="0iK-oJ-Tht" firstAttribute="top" secondItem="wy9-fp-Vpo" secondAttribute="top" constant="10" id="yfG-Yc-uMG"/>
                         </constraints>
@@ -356,7 +360,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="0aD-qh-Xee"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VVH-Kd-JIK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -375,7 +379,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ZQv-G1-zQ0"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RMC-8B-qSe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -394,7 +398,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="8KK-CA-ehN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UXC-JM-N2q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -409,8 +413,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="og8-Ur-TUU"/>
-        <segue reference="bko-6O-amT"/>
-        <segue reference="NaH-mG-Lk0"/>
+        <segue reference="0cg-ay-4n3"/>
+        <segue reference="Cad-sG-QwS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
